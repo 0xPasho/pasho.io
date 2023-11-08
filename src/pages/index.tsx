@@ -71,15 +71,17 @@ export default function Home() {
           <img
             src="/me.jpg"
             style={{ width: "6rem", height: "6rem", borderRadius: "100%" }}
+            className="imgHover"
           />
           <h1 className={styles.subtitle} style={{ padding: "15px 0px" }}>
-            sup, im pasho
+            👋 sup, im pasho
           </h1>
           <div className="flex flex-1">
             <SocialItem link="https://github.com/0xpasho">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
                 style={{ height: "1.5rem", filter: "invert(100%)" }}
+                className="imgHover"
               />
             </SocialItem>
             <SocialItem link="https://x.com/0xpasho">
@@ -133,16 +135,17 @@ export default function Home() {
             </SocialItem>
           </div>
           <h1 className={styles.subtitle} style={{ padding: "15px 0px" }}>
-            my projects 👇
+            some of my stuff 👇
           </h1>
           <div className={styles.cardRow} style={{ flex: 1 }}>
             <ProjectItem
               title="Olyvia Labs"
-              description="IT Solutions company"
+              description="Evolution through code 👉 IT Solutions company"
               img={
                 <img
                   src="https://olyvia.io/img/olyvialabs-logo.svg"
                   style={{ height: 60, filter: "invert(100%)" }}
+                  className="imgHover"
                 />
               }
               projectLink="https://olyvia.io/"
@@ -152,17 +155,18 @@ export default function Home() {
                 <img
                   src="https://quickjobs.app/img/Logo.png"
                   style={{ height: 60, marginLeft: -10 }}
+                  className="imgHover"
                 />
               }
-              title="Quickjobs"
+              title="Trabajo Rápido"
               description="Get hired quickly, focused on young people."
-              projectLink="https://quickjobs.app/"
+              projectLink="https://trabajorapido.app/"
             />
             <ProjectItem
-              img={<span style={{ fontSize: "2.5rem" }}>✨</span>}
-              title="cicode.ai"
-              description="AI powered solution for documentations"
-              projectLink="https://cicode.ai/"
+              img={<span style={{ fontSize: "2.5rem" }}>🐵</span>}
+              title="codesapiens.ai"
+              description="We understand your code, you ask the questions."
+              projectLink="https://codesapiens.ai/"
             />
           </div>
         </div>
